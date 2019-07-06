@@ -1,3 +1,8 @@
+
+# MQTT Adapter for mBot (see mbot_mqtt_adapter.py)
+
+Based on the following:
+
 # Python Library for mBot
 Table of contents
 =================
