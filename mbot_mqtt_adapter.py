@@ -41,7 +41,7 @@ if __name__ == '__main__':
 	client.loop_start()
 	client.subscribe("mbot/command")
 
-	bot.startWithSerial("/dev/tty.Makeblock-ELETSPP")
+	bot.startWithSerial("/dev/ttyUSB0")
 	#bot.startWithHID()
 	while(1):
 		bot.requestLightOnBoard(1,onLight)
